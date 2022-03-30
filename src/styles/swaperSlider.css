@@ -1,0 +1,20 @@
+.swiper-slide {
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.swiper-slide-active {
+    color: white;
+    font-weight: 600;
+}
+
+.swiper-slide-next {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.swiper-slide-next {
+    color: rgba(255, 255, 255, 0.65);
+}

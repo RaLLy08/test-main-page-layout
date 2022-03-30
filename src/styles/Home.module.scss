@@ -1,0 +1,59 @@
+.main {
+    width: 1280px;
+    height: 656px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__coverImage {
+    filter: brightness(50%);
+    position: fixed;
+    z-index: -1;
+    width: 1280px;
+    height: 656px;
+}
+
+.main__sliderContainer {
+    min-height: 111px;
+}
+
+.main__actions {
+    float: left;
+    article {
+        margin-top: 16px;
+    }
+    .actions__chips {
+        min-height: 32px;
+    }
+
+    .search__endAdorment {
+        cursor: pointer;
+    }
+}
+
+.actions__buttons {
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.main__description {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    p {
+        font-family: Montserrat;
+        color: white;
+        font-size: 21px;
+        font-weight: 500;
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+    }
+}
